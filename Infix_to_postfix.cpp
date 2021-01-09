@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
-string post[1000];         //This is work as the stack( later we will use it as post stack(postfix stack))
+string post[1000];         //This will work as the stack( later we will use it as post stack(postfix stack))
 map<char,ll>precedence;
 void evaluate(ll k)
 {
